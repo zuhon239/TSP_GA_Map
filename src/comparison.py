@@ -2,7 +2,7 @@
 Algorithm Comparison Module
 Compare GA vs PSO performance on TSP instances
 
-Author: Hoàng (Team Leader)
+Author: Quân ()
 """
 
 import os

@@ -299,10 +299,7 @@ def display_results(
                 st.plotly_chart(fig, use_container_width=True)
                 plot_success = True
             except Exception as e:
-                st.warning(f"⚠️ Visualizer failed: {str(e)}")
-        
-        
-    
+                st.warning(f"⚠️ Visualizer failed: {str(e)}")        
     # =========================================================================
     # 5. ADVANCED VISUALIZATIONS (NEW - ONLY IF VISUALIZER PROVIDED)
     # =========================================================================
